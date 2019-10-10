@@ -20,15 +20,15 @@ The detailed function of the script is:
 ## Usage
 This script was written by an amateur, so the things you need to do is:
 
-2. Install the requirements
+1. Install the requirements
 2. Put the script and the "exclude.tst" on to the directory where you want to execute
-2. Edit the "exclude.lst" as you like to exclude some items to compress ~~and if you
+3. Edit the "exclude.lst" as you like to exclude some items to compress ~~and if you
 need, edit the code too~~
-2. Attribute the permission to the script to execute, like as
+4. Attribute the permission to the script to execute, like as
   ```bash
   $ chmod +x rar2zip.sh
   ```
-2. Wait 
+5. Wait 
 
 ## Future functions I want to add
 - [ ] Check existing .zip files and add a folder inside if it doesn't exist a folder that includes the files
