@@ -3,7 +3,7 @@ Script to organize compressed files
 
 A particular script to convert .rar files into .zip files.
 
-# Description
+## Description
 Sometimes I get files compressed in .rar ~~WHY~~. But .rar is a limited file format to 
 work on the Linux. Soon I created a particular script on Bash that searches for
 .rar files, uncompress them and re-compress into .zip format.
@@ -19,6 +19,7 @@ The detailed function of the script is:
 
 ## Usage
 This script was written by an amateur, so the things you need to do is:
+
 2. Install the requirements
 2. Put the script and the "exclude.tst" on to the directory where you want to execute
 2. Edit the "exclude.lst" as you like to exclude some items to compress ~~and if you
@@ -33,4 +34,3 @@ need, edit the code too~~
 - [ ] Check existing .zip files and add a folder inside if it doesn't exist a folder that includes the files
 - [ ] Make the script more dynamic, e.g., set the path to execute the script
 
-## References
