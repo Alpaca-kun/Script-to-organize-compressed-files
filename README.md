@@ -25,7 +25,7 @@ This script was written by an amateur, so the things you need to do is:
 3. Edit the "exclude.lst" as you like to exclude some items to compress ~~and if you
 need, edit the code too~~
 4. Attribute the permission to the script to execute, like as
-  ```bash
+  ```
   $ chmod +x rar2zip.sh
   ```
 5. Wait 
