@@ -19,11 +19,9 @@ The detailed function of the script is:
 
 ## Usage
 This script was written by an amateur, so the things you need to do is:
-
 1. Install the requirements
 2. Put the script and the "exclude.tst" on to the directory where you want to execute
-3. Edit the "exclude.lst" as you like to exclude some items to compress ~~and if you
-need, edit the code too~~
+3. Edit the "exclude.lst" as you like to exclude some items to compress ~~and if you need, edit the code too~~
 4. Attribute the permission to the script to execute, like as
   ```
   $ chmod +x rar2zip.sh
