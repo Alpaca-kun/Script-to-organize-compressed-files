@@ -5,7 +5,7 @@ A particular script to convert .rar files into .zip files.
 
 ## Description
 Sometimes I get files compressed in .rar ~~WHY~~. But .rar is a limited file format to 
-work on the Linux. Soon I created a particular script on Bash that searches for
+work on the Linux. So I created a particular script on Bash that searches for
 .rar files, uncompress them and re-compress into .zip format.
 
 The detailed function of the script is:
