@@ -22,10 +22,11 @@ done
 for i in *.rar;
 do
   FILE_NAME="${i//.rar}"
+  printf "$FILE_NAME"
 
-  # unrar e -r "$i" "$FILE_NAME/"
-  unrar x -r "$i"
-  zip -r "$FILE_NAME.zip" "$FILE_NAME" -x@exclude.lst
+  unrar e -r "$i" "$FILE_NAME/"
+  # unrar x -r "$i" "$FILE_NAME/"
+  zip -r "$FILE_NAME.zip" "$FILE_NAME/" -x@exclude.lst
 
   rm -r "$FILE_NAME/" 
   rm "$i"

@@ -1,4 +1,5 @@
 *.url
 *.URL
 *.db
+*.DS_Store
 *.txt
